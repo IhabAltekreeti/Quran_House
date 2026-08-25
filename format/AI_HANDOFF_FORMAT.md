@@ -1,6 +1,6 @@
 # AI Handoff Format
 
-Use this when transferring work between GPT, the user, and Spark.
+Use this when transferring work between the user and Spark. speaking turkish only
 
 ## 1. What happened?
 Short plain-language summary.
@@ -25,6 +25,9 @@ One concrete next operation with an explicit owner.
 
 ## 8. Do not assume
 List claims that still need verification.
+
+##9. next step
+list the next step
 
 For Spark reports always include:
 - branch
