@@ -1,18 +1,26 @@
 # Quran House — Development Phases
 
 ## Phase 0 — Foundation
+**Status:** COMPLETE
+
 **Goal:** establish the repository, project memory, working protocol, and development environment.
 
 **Exit condition:** project environment is ready for implementation.
 
 ## Phase 1 — First Working Video
+**Status:** COMPLETE
+
 **Goal:** generate one valid 9:16 Quran video from a selected verse.
 
 **Core path:** Quran content → Uthmani Hafs Arabic text → translation → recitation → background media → basic composition → valid MP4.
 
 **Acceptance:** the complete pipeline produces a playable vertical video with the required content and basic visual layout.
 
+**Evidence:** Surah Al-Ikhlas 112:1 produced a validated 1080x1920 H.264/AAC MP4. Reciter identity was verified from Quran.com API data before audio retrieval. Pexels background was validated with FFprobe. Final composition passed stream-level resolution, FPS, codec, and duration checks.
+
 ## Phase 2 — Theme Engine
+**Status:** NEXT
+
 **Goal:** build reusable, configuration-driven visual themes without rewriting the core video pipeline.
 
 Themes should control layout, typography, animation, colors, progress bar, branding, and other presentation details where practical.
