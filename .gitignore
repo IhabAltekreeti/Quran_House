@@ -1,0 +1,9 @@
+output/
+assets/audio/
+assets/backgrounds/
+assets/typography_overlay.png
+__pycache__/
+.pytest_cache/
+*.part
+.env
+assets/fonts/*.ttf

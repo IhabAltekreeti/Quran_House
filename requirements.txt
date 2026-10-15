@@ -1,0 +1,4 @@
+requests>=2.31
+Pillow>=10.0   # must be built with libraqm (features.check("raqm") == True)
+fontTools>=4.40
+pytest>=8.0
